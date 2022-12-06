@@ -1,93 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Talk Banana</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banana Talk</title>
     <style>
-        #txt-area{
-            height:6rem;
-            width:50%;
-            display: block;
-            margin: 1rem auto;
-            padding:10px;
-            background:transparent;
+      #txt-area{
+          height:6rem;
+          width:50%;
+          display: block;
+          margin: 1rem auto;
+          padding:10px;
+          background:transparent;
 
-        }
-        #btn-translate{
-           display:block;
-           margin:0.5rem auto;
-           padding:1rem;
-           background-color:hsl(60, 100%, 50%) ;
-        }
-        #output{
-            border:1px solid black;
-            height:6rem;
-            width:49%;
-            margin : 1rem auto;
-            padding:1rem;
-        }
-        .heroHeading{
-            /* color:white; */
-            padding:1rem 1rem;
-            text-align: center;
-            color: Black;
-            text-shadow: 2px 2px yellow;
-        }
-        .container{
-            background-image: url("emoji.png");
-             background-repeat: no-repeat;
-           background-size: 15rem;
-           background-position-x: right;
-           background-position-y: 100%;
-           
-        }
-        hr{
-            width:50% ;
-            margin-bottom:2rem;
-        }
-        .footer{
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            background-color: rgb(255, 255, 0);
-            color: black;
-            text-align: center;
-            padding:2.5rem 0rem;
-            font-size:larger ;
-            font-weight: bolder;
-        }
-        @media only screen and (max-width:600px) {
-            .container{
-            background-image: url("emoji.png");
-             background-repeat: no-repeat;
-           background-size: 10rem;
-           background-position-x: left;
-           background-position-y: 80%;
-            }
-           
-            
-        }
+      }
+      #btn-translate{
+         display:block;
+         margin:0.5rem auto;
+         padding:1rem;
+         background-color:#153462(60, 100%, 50%) ;
+      }
+      #output{
+          border:1px solid black;
+          height:6rem;
+          width:49%;
+          margin : 1rem auto;
+          padding:1rem;
+      }
+      .heroHeading{
+          /* color:white; */
+          padding:1rem 1rem;
+          text-align: center;
+          color: Black;
+          text-shadow: 2px 2px #153462;
+      }
+      .container{
+          background-image: url("emoji.png");
+           background-repeat: no-repeat;
+         background-size: 15rem;
+         background-position-x: right;
+         background-position-y: 100%;
+
+      }
+      hr{
+          width:50% ;
+          margin-bottom:2rem;
+      }
+      .footer{
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background-color: #153462(255, 255, 0);
+          color: black;
+          text-align: center;
+          padding:2.5rem 0rem;
+          font-size:larger ;
+          font-weight: bolder;
+      }
+      @media only screen and (max-width:600px) {
+          .container{
+          background-image: url("emoji.png");
+           background-repeat: no-repeat;
+         background-size: 10rem;
+         background-position-x: left;
+         background-position-y: 80%;
+          }
+
+
+      }
     </style>
-</head>
-<body >
+  </head>
+  <body>
     <div class="container">
-        <!-- <img class="bg-image" src="minion.jpg" alt=""> -->
-        <h1 class="heroHeading">Talk Bananaaaa</h1>
-        <hr >
-        
-    
-        <textarea id="txt-area" placeholder="Enter your text in English to translate it into banana language" ></textarea>
-        <button id="btn-translate" >Translate to Banana</button>
-        <div id="output"></div>
+      <!-- <img class="bg-image" src="minion.jpg" alt=""> -->
+      <h1 class="heroHeading">Banana Talk !!! 💜🤓💜</h1>
+      <hr />
+
+      <textarea
+        id="txt-area"
+        placeholder="Enter your text in English to translate it into banana language"
+      ></textarea>
+      <button id="btn-translate">Translate to Minions Language</button>
+      <div id="output"></div>
     </div>
     <div class="footer">
-        This language is spoken by the minions in Despicable Me. The language is actually lots of languages. Yi kai yai yai bananna! Minion is a registered trademark of Universal Studios.
-
+      This language is spoken by the minions in Despicable Me. The language is
+      actually lots of languages. Yi kai yai yai bananna! Minion is a registered
+      trademark of Universal Studios.
     </div>
 
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
+
