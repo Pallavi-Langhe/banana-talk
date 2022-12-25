@@ -33,12 +33,3 @@ function clickHandler() {
 };
 
 btnTranslate.addEventListener("click", clickHandler);
-
-
-
-
-
-// document.querySelector("textarea");
-// document.querySelector(".btn-primary ")
-//document.querySelector("#input-btn")
-// document.querySelector("input[name=translator] ")
